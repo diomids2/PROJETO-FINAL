@@ -1,4 +1,4 @@
-# E-commerce de Console (TypeScript/Node) — Esquenta Adega (PT-BR)
+# E-commerce de Console (TypeScript) — Esquenta Adega 
 
 Projeto em **TypeScript (Node.js)** com entrada síncrona via `readline-sync`.
 
