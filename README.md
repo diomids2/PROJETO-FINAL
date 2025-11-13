@@ -1,4 +1,4 @@
-# E-commerce de Console (TypeScript) — Esquenta Adega 
+# E-commerce(TypeScript) — Esquenta Adega 
 
 Projeto em **TypeScript (Node.js)** com entrada síncrona via `readline-sync`.
 
@@ -12,7 +12,7 @@ npm start
 npm run dev
 ```
 
-## 🧭 Funcionalidades
+##  Funcionalidades
 
 - **Cadastrar produto** (somente *Produto Físico*): nome, preco, estoque, peso (kg)
 - **Listar produtos**: ID, nome, tipo, preco, estoque, peso
@@ -24,7 +24,7 @@ npm run dev
   - Em caso de **pagamento aprovado**: estoque é **debitado** (apenas produtos físicos)
 - **Listar pedidos**: itens, subtotais, total e status (**NOVO**, **PAGO**, **FALHA_PAGAMENTO**)
 
-## 🧠 Conceitos atendidos
+##  Conceitos atendidos
 
 - **Entrada/Saída** de dados: `readline-sync`
 - **Lacos e Condicionais**: `do...while` no menu, `switch-case`, `if/else`
@@ -36,7 +36,7 @@ npm run dev
 - **Collections**: `Map<number, Produto>` em `RepositorioProduto`; listas para itens/pedidos
 - **Exceptions**: `ErroProdutoNaoEncontrado`, `ErroEstoqueInsuficiente`
 
-## 🧪 Exemplo de uso
+##  Exemplo de uso
 
 ```
 === E-COMMERCE - ESQUENTA ADEGA ===
@@ -53,4 +53,4 @@ Escolha uma opcao: 2
 [102] Vodka Absolut 1L (Físico) - R$ 99.00 | Estoque: 20 | Peso: 1.20kg
 ```
 
-## 🧵 Branches de entrega (sugestao para avaliacao)
+<img src="[URL_DA_SUA_IMAGEM](https://media.discordapp.net/attachments/1425572824470392876/1438650147331510294/Captura_de_tela_2025-11-13_190032.png?ex=6917a6db&is=6916555b&hm=f31f985493b5aa2540f89963496fc669161c01c6ae024565edd84c52cc3524e1&=&format=webp&quality=lossless)" alt="PRINT BASH">
