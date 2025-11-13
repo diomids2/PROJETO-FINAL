@@ -90,7 +90,7 @@ git commit -m "chore: setup inicial (TS + readline-sync, PT-BR)"
 # Etapa 1 — variaveis-lacos
 git checkout -b variaveis-lacos
 git add src/principal.ts src/utilitarios/entrada.ts
-git commit -m "feat(etapa1): menu, entrada/saída, lacos e condicionais"
+git commit -m "menu, entrada/saída, lacos e condicionais"
 
 # Etapa 2 — POO
 git checkout -b POO main
@@ -100,7 +100,7 @@ git commit -m "feat(etapa2): POO (abstracao, heranca, polimorfismo, sobrecarga, 
 # Etapa 3 — collections & exceptions
 git checkout -b collection-exceptions main
 git add src/repositorio/** src/excecoes/**
-git commit -m "feat(etapa3): Collections e Exceptions (repos e erros customizados)"
+git commit -m "etapa3 Collections e Exceptions (repos e erros customizados)"
 ```
 
 ---
