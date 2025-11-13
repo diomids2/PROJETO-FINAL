@@ -1,4 +1,4 @@
-# E-commerce de Console (TypeScript/Node) — Esquenta Adega (PT-BR)
+# E-commerce de Console (TypeScript) — Esquenta Adega 
 
 Projeto em **TypeScript (Node.js)** com entrada síncrona via `readline-sync`.
 
@@ -10,32 +10,6 @@ npm run build
 npm start
 # ou (modo dev, sem build)
 npm run dev
-```
-
-## 🗂 Estrutura
-
-```
-src/
-  principal.ts
-  utilitarios/entrada.ts
-  excecoes/
-    ErroProdutoNaoEncontrado.ts
-    ErroEstoqueInsuficiente.ts
-  dominio/
-    produto/
-      Produto.ts
-      ProdutoFisico.ts
-    usuario/Cliente.ts
-    pedido/
-      ItemPedido.ts
-      Pedido.ts
-  pagamento/
-    EstrategiaPagamento.ts
-    PagamentoPix.ts
-    PagamentoCartao.ts
-  repositorio/
-    RepositorioProduto.ts
-    RepositorioPedido.ts
 ```
 
 ## 🧭 Funcionalidades
@@ -50,7 +24,7 @@ src/
   - Em caso de **pagamento aprovado**: estoque é **debitado** (apenas produtos físicos)
 - **Listar pedidos**: itens, subtotais, total e status (**NOVO**, **PAGO**, **FALHA_PAGAMENTO**)
 
-## 🧠 Conceitos atendidos (projeto acadêmico)
+## 🧠 Conceitos atendidos
 
 - **Entrada/Saída** de dados: `readline-sync`
 - **Lacos e Condicionais**: `do...while` no menu, `switch-case`, `if/else`
@@ -80,27 +54,3 @@ Escolha uma opcao: 2
 ```
 
 ## 🧵 Branches de entrega (sugestao para avaliacao)
-
-```bash
-# Inicial
-git init
-git add .
-git commit -m "chore: setup inicial (TS + readline-sync, PT-BR)"
-
-# Etapa 1 — variaveis-lacos
-git checkout -b variaveis-lacos
-git add src/principal.ts src/utilitarios/entrada.ts
-git commit -m "menu, entrada/saída, lacos e condicionais"
-
-# Etapa 2 — POO
-git checkout -b POO main
-git add src/dominio/** src/pagamento/**
-git commit -m "feat(etapa2): POO (abstracao, heranca, polimorfismo, sobrecarga, interfaces)"
-
-# Etapa 3 — collections & exceptions
-git checkout -b collection-exceptions main
-git add src/repositorio/** src/excecoes/**
-git commit -m "etapa3 Collections e Exceptions (repos e erros customizados)"
-```
-
----
